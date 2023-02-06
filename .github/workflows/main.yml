@@ -10,7 +10,7 @@ jobs:
     
     steps:
       - name: Date Ubuntu!
-        run: 'date'
+        run: date
         
   print_date_windows:
     name: Date Windows!
@@ -18,7 +18,7 @@ jobs:
     
     steps:
       - name: Date Windows!
-        run: 'date'
+        run: date
     
   print_date_macos:
     name: Date MacOs!
@@ -26,7 +26,7 @@ jobs:
     
     steps:
       - name: Date MacOs!
-        run: 'date'
+        run: date
      
   print_all:
     name: Date all!
@@ -35,4 +35,4 @@ jobs:
     
     steps:
       - name: Date All!
-        run: 'date'
+        run: date
