@@ -6,7 +6,7 @@ on:
 jobs:
   print_date_ubuntu:
     name: Date Ubuntu!
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     
     steps:
       - name: Date Ubuntu!
