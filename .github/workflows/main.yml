@@ -10,4 +10,29 @@ jobs:
     
     steps:
       - name: Date Ubuntu!
-        run: echo 'date'
+        run: 'date'
+        
+  print_date_windows:
+    name: Date Windows!
+    runs-on: windows-latest
+    
+    steps:
+      - name: Date Windows!
+        run: 'date'
+    
+  print_date_macos:
+    name: Date MacOs!
+    runs-on: macos-latest
+    
+    steps:
+      - name: Date MacOs!
+        run: 'date'
+     
+   print_all:
+    name: Date all!
+    runs-on: macos-latest
+    needs: [print_date_ubuntu,print_date_windows,print_date_macos]
+    
+    steps:
+      - name: Date All!
+        run: 'date'
