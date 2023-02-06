@@ -28,7 +28,7 @@ jobs:
       - name: Date MacOs!
         run: 'date'
      
-   print_all:
+  print_all:
     name: Date all!
     runs-on: macos-latest
     needs: [print_date_ubuntu,print_date_windows,print_date_macos]
